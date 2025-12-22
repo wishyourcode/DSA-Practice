@@ -1,9 +1,12 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class setmismatch {
     public static void main(String[] args) {
         int[] arr = { 1, 3, 2, 5 };
-
+        int[] ans = searchnumber(arr);
+        System.out.println(Arrays.toString(ans));
     }
 
     static int[] searchnumber(int[] arr) {
