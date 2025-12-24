@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class E_Left_rotate_Array {
+public class O_Left_rotate_Array {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5, 6 };
         System.out.println(" before left Rotation: " + Arrays.toString(arr));
