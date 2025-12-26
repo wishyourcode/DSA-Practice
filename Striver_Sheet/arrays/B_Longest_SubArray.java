@@ -1,4 +1,4 @@
-public class B_Largest_SubArray {
+public class B_Longest_SubArray {
     public static void main(String[] args) {
         int[] nums = { -3, 2, 1 };
         int k = 6;
