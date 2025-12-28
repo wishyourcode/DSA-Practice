@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class O_RearrangingArray {
     public static void main(String[] args) {
-        int[] arr = { 1, 2, -4, -5 };
+        int[] arr = { 3, 1, -2, -5, 2, -4 };
         ArrangeArray(arr);
 
     }
