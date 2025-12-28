@@ -1,4 +1,4 @@
-package binary_Search;
+package basic_binary_search;
 
 public class ceillingNumber {
     public static void main(String[] args) {

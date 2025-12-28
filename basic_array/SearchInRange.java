@@ -1,4 +1,4 @@
-package array;
+package basic_array;
 
 public class SearchInRange {
     public static void main(String[] args) {
