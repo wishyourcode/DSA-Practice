@@ -1,3 +1,5 @@
+package Striver_Sheet.Binary_Search;
+
 public class O_FlooreElement {
     public static void main(String[] args) {
         int[] arr = { 3, 4, 4, 7, 8, 10 };
