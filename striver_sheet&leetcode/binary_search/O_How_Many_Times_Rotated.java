@@ -1,4 +1,4 @@
-package Striver_Sheet.Binary_Search;
+package striver_sheet.binary_search;
 
 public class O_How_Many_Times_Rotated {
     public static void main(String[] args) {

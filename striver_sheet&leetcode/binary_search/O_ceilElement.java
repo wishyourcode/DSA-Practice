@@ -1,4 +1,4 @@
-package Striver_Sheet.Binary_Search;
+package striver_sheet.binary_search;
 
 public class O_ceilElement {
     public static void main(String[] args) {

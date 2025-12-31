@@ -1,4 +1,4 @@
-package leetcode;
+package logic;
 
 public class missingNumber {
     public static void main(String[] args) {

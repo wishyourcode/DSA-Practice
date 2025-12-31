@@ -1,4 +1,4 @@
-package leetcode;
+package logic;
 
 public class evendigit {
     public static void main(String[] args) {

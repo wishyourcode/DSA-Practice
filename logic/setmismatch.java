@@ -1,16 +1,15 @@
-package leetcode;
+package logic;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
-public class findDuplicates {
+public class setmismatch {
     public static void main(String[] args) {
-        int[] arr = { 4, 3, 2, 7, 8, 2, 3, 1 };
-        List<Integer> ans = searchnumber(arr);
-        System.out.println(ans);
+        int[] arr = { 1, 3, 2, 5 };
+        int[] ans = searchnumber(arr);
+        System.out.println(Arrays.toString(ans));
     }
 
-    static List<Integer> searchnumber(int[] arr) {
+    static int[] searchnumber(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1; // 1,2,3,
@@ -20,13 +19,12 @@ public class findDuplicates {
                 i++;
             }
         }
-        List<Integer> ans = new ArrayList<>();
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index + 1) {
-                ans.add(arr[index]);
+                return new int[] { arr[index], index + 1 };
             }
         }
-        return ans;
+        return new int[] { -1, -1 };
     }
 
     static void swap(int[] arr, int value, int correctindex) {

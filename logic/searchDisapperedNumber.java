@@ -1,15 +1,16 @@
-package leetcode;
+package logic;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
-public class setmismatch {
+public class searchDisapperedNumber {
     public static void main(String[] args) {
-        int[] arr = { 1, 3, 2, 5 };
-        int[] ans = searchnumber(arr);
-        System.out.println(Arrays.toString(ans));
+        int[] arr = { 4, 3, 2, 7, 8, 2, 3, 1 };
+        List<Integer> ans = searchnumber(arr);
+        System.out.println(ans);
     }
 
-    static int[] searchnumber(int[] arr) {
+    static List<Integer> searchnumber(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1; // 1,2,3,
@@ -19,12 +20,13 @@ public class setmismatch {
                 i++;
             }
         }
+        List<Integer> ans = new ArrayList<>();
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index + 1) {
-                return new int[] { arr[index], index + 1 };
+                ans.add(index + 1);
             }
         }
-        return new int[] { -1, -1 };
+        return ans;
     }
 
     static void swap(int[] arr, int value, int correctindex) {

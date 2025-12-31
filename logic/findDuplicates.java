@@ -1,9 +1,9 @@
-package leetcode;
+package logic;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class searchDisapperedNumber {
+public class findDuplicates {
     public static void main(String[] args) {
         int[] arr = { 4, 3, 2, 7, 8, 2, 3, 1 };
         List<Integer> ans = searchnumber(arr);
@@ -23,7 +23,7 @@ public class searchDisapperedNumber {
         List<Integer> ans = new ArrayList<>();
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index + 1) {
-                ans.add(index + 1);
+                ans.add(arr[index]);
             }
         }
         return ans;
