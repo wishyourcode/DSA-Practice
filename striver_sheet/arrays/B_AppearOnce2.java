@@ -1,3 +1,4 @@
+
 public class B_AppearOnce2 {
     public static void main(String[] args) {
 

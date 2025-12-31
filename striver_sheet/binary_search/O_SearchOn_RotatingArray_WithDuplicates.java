@@ -1,20 +1,21 @@
-package Striver_Sheet.Binary_Search;
+package striver_sheet.binary_search;
 
-public class O_SearchOn_roteating_Array {
+public class O_SearchOn_RotatingArray_WithDuplicates {
     public static void main(String[] args) {
         int[] nums = { 4, 5, 6, 0, 1, 2, 3, 4, 5 };
-        int target = 0;
-        int ans = SearchElement(nums, target);
+        int target = 6;
+        boolean ans = SearchElement(nums, target);
         System.out.println(ans);
     }
 
-    public static int SearchElement(int[] arr, int target) {
+    public static boolean SearchElement(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (arr[mid] == target) {
-                return mid;
+                return true;
+
             }
             // If left part is sorted
             if (arr[start] <= arr[mid]) {
@@ -33,6 +34,6 @@ public class O_SearchOn_roteating_Array {
                 }
             }
         }
-        return -1;
+        return false;
     }
 }
