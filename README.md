@@ -1,0 +1,3 @@
+I have solved a wide range of Java problems as part of my continuous learning journey in Data Structures and Algorithms. This repository includes solutions to LeetCode problems as well as DSA problems from the Striver Sheet, curated by a well-known educator who comprehensively covers core and advanced DSA topics.
+
+In addition to problem-solving, this repository also demonstrates my hands-on experience with Git and GitHub. Throughout the development process, I consistently pushed my code, worked with multiple branches, and performed branch creation, merging, and version control operations as part of real-world workflows.
