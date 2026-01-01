@@ -13,7 +13,11 @@ public class O_Find_Peak {
         int end = arr.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
+<<<<<<< HEAD
             if (arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1]) {
+=======
+            if (arr[mid] > arr[mid - 1] && arr[mid] < arr[mid + 1]) {
+>>>>>>> bbc20e48edaf4e0a70a5bbea2d47356b85bbc714
                 return arr[mid];
             }
             if (arr[mid] > arr[mid - 1]) {
