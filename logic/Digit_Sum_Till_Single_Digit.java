@@ -1,8 +1,8 @@
-package basic_array;
+package logic;
 
 public class Digit_Sum_Till_Single_Digit {
     public static void main(String[] args) {
-        int ans = digitsum(12345);
+        int ans = digitsum(12345678);
         System.out.println(ans);
     }
 

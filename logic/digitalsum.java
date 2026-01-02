@@ -1,4 +1,4 @@
-package basic_array;
+package logic;
 
 import java.util.Scanner;
 
