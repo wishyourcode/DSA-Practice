@@ -8,6 +8,7 @@ public class O_How_Many_Times_Rotated {
 
     }
 
+    // find the rotation times
     public static int TimesRotated(int[] arr) {
         if (arr.length == 0) {
             return -1;
