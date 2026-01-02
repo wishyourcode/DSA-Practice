@@ -2,7 +2,7 @@ package logic;
 
 public class evendigit {
     public static void main(String[] args) {
-        int[] arr = { 12, 345, 2, 6, 7896, 12345, 123456 };
+        int[] arr = { 12, 345, 2, 6, 7896, 12345, 12345 };
         findDigit(arr);
     }
 
