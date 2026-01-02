@@ -7,6 +7,7 @@ public class O_FlooreElement {
         System.out.println(ans);
     }
 
+    // find floor element for the value
     public static int floorElement(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
