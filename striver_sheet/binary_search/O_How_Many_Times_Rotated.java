@@ -5,6 +5,7 @@ public class O_How_Many_Times_Rotated {
         int[] nums = {};
         int ans = TimesRotated(nums);
         System.out.println(ans);
+
     }
 
     public static int TimesRotated(int[] arr) {
