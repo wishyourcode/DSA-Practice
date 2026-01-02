@@ -7,6 +7,7 @@ public class evendigit {
     }
 
     static void findDigit(int[] arr) {
+        // given element digit count is even or not for every elemnt
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             int nums = arr[i];
