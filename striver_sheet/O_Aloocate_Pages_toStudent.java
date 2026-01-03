@@ -35,7 +35,6 @@ public class O_Aloocate_Pages_toStudent {
     }
 
     public static int countStudent(int[] arr, int mid) {
-        int n = arr.length;
         int students = 1;
         long pagesStudent = 0;
         for (int i = 0; i < arr.length; i++) {
