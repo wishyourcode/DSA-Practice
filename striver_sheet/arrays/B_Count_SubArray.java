@@ -5,6 +5,7 @@ public class B_Count_SubArray {
         System.out.println(ans);
     }
 
+    // Function to count the number of subarrays with sum equal to k
     public static int countSubArray(int[] arr, int k) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
