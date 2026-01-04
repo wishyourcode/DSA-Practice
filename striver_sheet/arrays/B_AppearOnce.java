@@ -5,6 +5,8 @@ public class B_AppearOnce {
         int ans = AppearingOnce(arr);
         System.out.println(ans);
     }
+    // find the element which appears once in the array
+    // where all other elements appear twice
 
     public static int AppearingOnce(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
