@@ -6,6 +6,7 @@ public class B_Longest_consecutive_subArray {
         System.out.println(ans);
     }
 
+    // Function to find the length of the longest consecutive subarray
     public static int Longest_Consecutive_SubArray(int[] arr) {
         int largest = 1;
         sort(arr);
