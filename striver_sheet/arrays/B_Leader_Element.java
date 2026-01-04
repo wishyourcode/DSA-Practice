@@ -7,6 +7,7 @@ public class B_Leader_Element {
         System.out.println(result);
     }
 
+    // Function to find all leader elements in the array
     public static ArrayList<Integer> Find_Learder(int[] arr) {
         ArrayList<Integer> ans = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
