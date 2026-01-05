@@ -7,6 +7,15 @@ public class RemoveDuplicateinArray {
         System.out.println("n = " + n);
     }
 
+    /*
+     * You are given a sorted integer array 'arr' of size 'n'.
+     * You need to remove the duplicates from the array such that each element
+     * appears only once.
+     * Return the length of this new array.
+     * Note:
+     * Do not allocate extra space for another array. You need to do this by
+     * modifying the given input array in place with O(1) extra memory.
+     */
     public static int removeDuplicates(int[] arr, int n) {
         int left = 0;
         for (int right = 1; right < arr.length; right++) {
