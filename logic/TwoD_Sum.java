@@ -1,6 +1,5 @@
 package logic;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class TwoD_Sum {
