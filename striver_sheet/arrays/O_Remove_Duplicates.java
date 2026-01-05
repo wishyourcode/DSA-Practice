@@ -10,6 +10,7 @@ public class O_Remove_Duplicates {
         System.out.println(Arrays.toString(arr));
     }
 
+    // Function to remove duplicates from sorted array
     public static int removeDuplicate(int[] arr) {
         int i = 0;
         for (int j = 1; j < arr.length; j++) {
