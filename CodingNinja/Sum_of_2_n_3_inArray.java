@@ -7,6 +7,7 @@ public class Sum_of_2_n_3_inArray {
      */
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5, 6 };
+        int arr1[] = new int[arr.length];
         int sum = findSum(arr);
         System.out.println(sum);
     }
