@@ -1,4 +1,3 @@
-package CodingNinja;
 
 /*
 You have been given a random integer array/list(ARR) of size N,

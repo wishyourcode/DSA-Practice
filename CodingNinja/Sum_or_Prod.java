@@ -1,5 +1,3 @@
-package CodingNinja;
-
 public class Sum_or_Prod {
     public static void main(String[] args) {
         int n = 17;
