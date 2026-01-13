@@ -1,5 +1,3 @@
-package CodingNinja;
-
 import java.util.ArrayList;
 import java.util.List;
 
