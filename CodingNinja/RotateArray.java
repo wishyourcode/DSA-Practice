@@ -39,10 +39,11 @@ public class RotateArray {
         arr.add(4);
         arr.add(5);
 
-        int k = 2; // number of steps to rotate
+        int k = 3; // number of steps to rotate
 
         ArrayList<Integer> rotatedArr = rotateArray(arr, k);
         System.out.println(rotatedArr); // Output: [3, 4, 5, 1, 2]
 
     }
+
 }
