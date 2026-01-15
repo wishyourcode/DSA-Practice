@@ -61,7 +61,7 @@ public class deletemid {
         System.out.println("Original List:");
         printList(head);
         head = deleteMiddle(head);
-        System.out.println("List after deleting middle node:");
+        System.out.print("List after deleting middle node:");
         printList(head);
     }
 }
