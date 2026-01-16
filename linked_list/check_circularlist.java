@@ -23,7 +23,7 @@ public class check_circularlist {
         }
     }
 
-    public static boolean isCircular(Node<Integer> head) {
+    public static boolean isCircular(Node head) {
         if (head == null) {
             return true;
         }
@@ -42,6 +42,7 @@ public class check_circularlist {
 
         return false; // No cycle
     }
+
     public static void main(String[] args) {
         // Example usage:
         check_circularlist list = new check_circularlist();
