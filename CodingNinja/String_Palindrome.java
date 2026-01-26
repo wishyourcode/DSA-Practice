@@ -30,4 +30,14 @@ public class String_Palindrome {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        String S = "c1 O$d@eeD o1c";
+
+        if (isPalindrome(S)) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+    }
 }
