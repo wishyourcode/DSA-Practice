@@ -7,25 +7,6 @@ You are given a Singly Linked List of integers.
 Note :
 You do not need to print anything, just return the head of 
 the reversed linked list. */
-class Node {
-    public int data;
-    public Node next;
-
-    Node() {
-        this.data = 0;
-        this.next = null;
-    }
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-}
 
 public class ReverseLinked_List {
     public static Node reverseLinkedList(Node head) {
