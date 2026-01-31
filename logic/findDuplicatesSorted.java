@@ -1,6 +1,6 @@
-package striver_sheet.binary_search;
+package logic;
 
-public class findDuplicates {
+public class findDuplicatesSorted {
     public static void main(String[] args) {
         // hard coded iput
         int[] arr = { 1, 1, 3, 4, 5 };

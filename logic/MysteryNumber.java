@@ -1,4 +1,4 @@
-package striver_sheet.binary_search;
+package logic;
 
 import java.util.Scanner;
 
