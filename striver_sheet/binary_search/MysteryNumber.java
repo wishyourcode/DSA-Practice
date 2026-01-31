@@ -1,3 +1,5 @@
+package striver_sheet.binary_search;
+
 import java.util.Scanner;
 
 public class MysteryNumber {

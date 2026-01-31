@@ -1,3 +1,5 @@
+package striver_sheet.binary_search;
+
 public class Set_Matrix_Zeros {
     public static void main(String[] args) {
         // hardcode input
