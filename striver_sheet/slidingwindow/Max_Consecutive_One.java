@@ -1,6 +1,6 @@
 package striver_sheet.slidingwindow;
 
-/* iven a binary array nums and an integer k, 
+/* given a binary array nums and an integer k, 
 return the maximum number of consecutive 1's in 
 the array if you can flip at most k 0's. */
 public class Max_Consecutive_One {
@@ -17,6 +17,7 @@ public class Max_Consecutive_One {
         for (int right = 0; right < nums.length; right++) {
             if (nums[right] == 0) {
                 zerocount++;
+
             }
             if (zerocount > k) {
                 if (nums[left] == 0) {
