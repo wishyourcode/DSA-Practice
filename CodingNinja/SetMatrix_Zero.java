@@ -19,14 +19,14 @@ public class SetMatrix_Zero {
     public static int[][] setmatrixZero(int[][] arr) {
         int row = arr.length;
         int col = arr[0].length;
-        boolean[] rowFlag = new boolean[row];
-        boolean[] colFlag = new boolean[col];
+        boolean[] rowZero = new boolean[row];
+        boolean[] colZero = new boolean[col];
         // First find zeros
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (arr[i][j] == 0) {
-                    rowFlag[i] = true;
-                    colFlag[j] = true;
+                    rowZero[i] = true;
+                    colZero[j] = true;
                 }
             }
         }
@@ -34,7 +34,7 @@ public class SetMatrix_Zero {
         // then set the zeros
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                if (rowFlag[i] || colFlag[j]) {
+                if (rowZero[i] || colZero[j]) {
                     arr[i][j] = 0;
                 }
             }
