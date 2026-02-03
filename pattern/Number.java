@@ -1,6 +1,7 @@
 package pattern;
 
 /*
+n =5
     1
    23
   345
