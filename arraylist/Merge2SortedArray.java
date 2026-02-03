@@ -47,6 +47,9 @@ public class Merge2SortedArray {
         int[] arr1 = { 1, 3, 5, 7 };
         int[] arr2 = { 2, 4, 5 };
         List<Integer> ans = sortedArray(arr1, arr2);
+        for (int num : ans) {
+            System.out.print(num + " ");
+        }
 
     }
 }
