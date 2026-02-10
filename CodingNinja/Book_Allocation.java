@@ -12,8 +12,7 @@ Allocate books in such a way that:
 You have to allocate the book to ‘m’ students such that 
 the maximum number of pages assigned to a student is minimum.
 If the allocation of books is not possible, return -1.
-Example:
-Input: ‘n’ = 4 ‘m’ = 2 
+Example:Input: ‘n’ = 4 ‘m’ = 2 
 ‘arr’ = [12, 34, 67, 90]
 Output: 113
 Explanation: All possible ways to allocate the ‘4’ books 
