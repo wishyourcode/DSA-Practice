@@ -44,8 +44,8 @@ public class Book_Allocation {
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            int student = calculateStd(arr, mid);
-            if (student > m) {
+            int count = calculateStd(arr, mid);
+            if (count > m) {
                 low = mid + 1;
             } else {
                 high = mid - 1;
