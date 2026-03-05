@@ -8,10 +8,10 @@ public class fibonacciNumber {
 
         for (int i = 2; i <= n; i++) {
             int c = a + b;
-            System.out.println(c);
             a = b;
             b = c;
         }
 
+        System.out.println(b);
     }
 }
